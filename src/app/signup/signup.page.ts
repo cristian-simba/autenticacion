@@ -30,6 +30,8 @@ export class SignupPage implements OnInit {
       this.email,
       this.password
     );
+    this.navCntrl.navigateBack('login');
+
     return user;
   }
 

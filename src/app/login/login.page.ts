@@ -28,6 +28,7 @@ export class LoginPage {
       this.password
     );
     console.log(user);
+    this.navCntrl.navigateForward('home');
     return user;
   }
 
